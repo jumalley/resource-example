@@ -33,6 +33,16 @@ server_scripts {
 
 dependencies {
 	'ox_lib',
-  '/server:4752',
+ 	'/server:4752',
 	'/gameBuild:3095',  
 }
+
+-- Globbing
+-- Some entry types may support 'globbing' for multiple files. These take a pattern syntax as follows:
+
+-- Example	Matches
+-- *.lua	a.lua, b.lua (non-recursively)
+-- dir/*.dll	dir/a.dll, b.dll (non-recursively)
+-- **/*.lua	dir1/a.lua, dir2/b.lua, dir1/dir2/f.lua
+-- **.lua	same as above
+-- **/cl_*.lua	dir1/cl_hi.lua, etc.
