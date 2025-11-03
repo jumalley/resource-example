@@ -11,7 +11,7 @@ version '1.0.0'
 shared_scripts {
 	'@ox_lib/init.lua',
 	'config/*.lua',
-        'locales/*.lua',
+    'locales/*.lua',
 	'client/utils.lua',
 }
 
